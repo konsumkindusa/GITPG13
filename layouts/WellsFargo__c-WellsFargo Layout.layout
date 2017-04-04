@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Wells_Fargo_CheckBox__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Well_Fargo_Email_Fields__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -52,6 +52,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Well_Fargo_Email_Fields__c</fullName>
+        <externalId>false</externalId>
+        <label>Well Fargo Email Field</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>WellsFargo_Picklist__c</fullName>
         <externalId>false</externalId>
         <label>WellsFargo Picklist</label>
