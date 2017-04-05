@@ -1308,6 +1308,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>WellsFargo__c.WellsCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WellsFargo__c.WellsFargo_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>

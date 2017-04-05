@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>Well_Fargo_Email_Fields__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>WellsCheck__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

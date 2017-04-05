@@ -61,6 +61,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>WellsCheck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>demo check box</inlineHelpText>
+        <label>WellsCheck</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>WellsFargo_Picklist__c</fullName>
         <externalId>false</externalId>
         <label>WellsFargo Picklist</label>
