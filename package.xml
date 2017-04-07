@@ -2,6 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>WFApex1</members>
+        <members>WFApex2</members>
+        <members>WFApex3</members>
+        <members>WFApexTest1</members>
+        <members>WFApexTest2</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
