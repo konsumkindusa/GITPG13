@@ -170,28 +170,12 @@
             <start>172.0.0.0</start>
         </ipRanges>
         <ipRanges>
-            <end>170.13.246.142</end>
-            <start>170.13.246.142</start>
-        </ipRanges>
-        <ipRanges>
             <end>171.255.255.255</end>
             <start>170.0.0.0</start>
         </ipRanges>
         <ipRanges>
-            <end>169.200.255.255</end>
-            <start>169.200.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>168.175.255.255</end>
-            <start>168.175.0.0</start>
-        </ipRanges>
-        <ipRanges>
             <end>169.255.255.255</end>
             <start>168.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>167.138.255.255</end>
-            <start>167.138.0.0</start>
         </ipRanges>
         <ipRanges>
             <end>167.255.255.255</end>
@@ -202,24 +186,12 @@
             <start>164.0.0.0</start>
         </ipRanges>
         <ipRanges>
-            <end>162.111.255.255</end>
-            <start>162.111.0.0</start>
-        </ipRanges>
-        <ipRanges>
             <end>163.255.255.255</end>
             <start>162.0.0.0</start>
         </ipRanges>
         <ipRanges>
-            <end>161.231.255.255</end>
-            <start>161.231.0.0</start>
-        </ipRanges>
-        <ipRanges>
             <end>161.255.255.255</end>
             <start>160.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>159.45.255.255</end>
-            <start>159.45.0.0</start>
         </ipRanges>
         <ipRanges>
             <end>159.255.255.255</end>
@@ -236,10 +208,6 @@
         <ipRanges>
             <end>153.255.255.255</end>
             <start>152.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>151.151.255.255</end>
-            <start>151.151.0.0</start>
         </ipRanges>
         <ipRanges>
             <end>151.255.255.255</end>
@@ -577,5 +545,6 @@
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <securityCentralKillSession>true</securityCentralKillSession>
+        <sessionTimeout>TwelveHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>

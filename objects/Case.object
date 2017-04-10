@@ -362,6 +362,60 @@
         <label>All Open Cases</label>
     </listViews>
     <listViews>
+        <fullName>LPD_EMEA_Customer_Service_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD EMEA Customer Service</label>
+        <queue>LPD_EMEA_Customer_Service</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LPD_NA_Customer_Service_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD NA Customer Service</label>
+        <queue>LPD_NA_Customer_Service</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LPD_Technical_Service_Inquiry_EMEA_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD Technical Service Inquiry EMEA Queue</label>
+        <queue>LPD_Technical_Service_Inquiry_EMEA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LPD_Technical_Service_Inquiry_NA_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD Technical Service Inquiry NA Queue</label>
+        <queue>LPD_Technical_Service_Inquiry_NA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LPD_Technical_Service_Issue_EMEA_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD Technical Service Issue EMEA Queue</label>
+        <queue>LPD_Technical_Service_Issue_EMEA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LPD_Technical_Service_Issue_NA_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>LPD Technical Service Issue NA Queue</label>
+        <queue>LPD_Technical_Service_Issue_NA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyCases</fullName>
         <filterScope>Mine</filterScope>
         <label>My Cases</label>
@@ -375,6 +429,114 @@
             <value>0</value>
         </filters>
         <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>OE_Export_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>OE Export</label>
+        <queue>OE_Export</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>P_S_Account_Conversion_Queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>P&amp;S Account Conversion Queue</label>
+        <queue>P_S_Account_Conversion_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_EMEA_Fax_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD EMEA Fax</label>
+        <queue>WLPD_EMEA_Fax</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Belgium_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Belgium</label>
+        <queue>WLPD_OE_Belgium</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_France_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE France</label>
+        <queue>WLPD_OE_France</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Germany_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Germany</label>
+        <queue>WLPD_OE_Germany</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Ireland_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Ireland</label>
+        <queue>WLPD_OE_Ireland</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Italy_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Italy</label>
+        <queue>WLPD_OE_Italy</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Nederland_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Nederland</label>
+        <queue>WLPD_OE_Nederland</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Nordics_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Nordics</label>
+        <queue>WLPD_OE_Nordics</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_Spain_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE Spain</label>
+        <queue>WLPD_OE_Spain</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>WLPD_OE_UK_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>WLPD OE UK</label>
+        <queue>WLPD_OE_UK</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>

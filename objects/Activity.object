@@ -33,6 +33,1574 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Activity_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Description_Hover__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Description</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_Descriptions__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Description</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Add-on Marketing Priority</fullName>
+                    <default>false</default>
+                    <label>Add-on Marketing Priority</label>
+                </value>
+                <value>
+                    <fullName>Complaint</fullName>
+                    <default>false</default>
+                    <label>Complaint</label>
+                </value>
+                <value>
+                    <fullName>Customer Defected</fullName>
+                    <default>false</default>
+                    <label>Customer Defected</label>
+                </value>
+                <value>
+                    <fullName>E-Commerce Onboarding</fullName>
+                    <default>false</default>
+                    <label>E-Commerce Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Expired Product Return</fullName>
+                    <default>false</default>
+                    <label>Expired Product Return</label>
+                </value>
+                <value>
+                    <fullName>Go Direct Outreach</fullName>
+                    <default>false</default>
+                    <label>Go Direct Outreach</label>
+                </value>
+                <value>
+                    <fullName>Onboarding</fullName>
+                    <default>false</default>
+                    <label>Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Order Handling</fullName>
+                    <default>false</default>
+                    <label>Order Handling</label>
+                </value>
+                <value>
+                    <fullName>Outbound Marketing Priority</fullName>
+                    <default>false</default>
+                    <label>Outbound Marketing Priority</label>
+                </value>
+                <value>
+                    <fullName>Price Quote</fullName>
+                    <default>false</default>
+                    <label>Price Quote</label>
+                </value>
+                <value>
+                    <fullName>Practice Observation</fullName>
+                    <default>false</default>
+                    <label>Practice Observation</label>
+                </value>
+                <value>
+                    <fullName>Retention</fullName>
+                    <default>false</default>
+                    <label>Retention</label>
+                </value>
+                <value>
+                    <fullName>Roundtable</fullName>
+                    <default>false</default>
+                    <label>Roundtable</label>
+                </value>
+                <value>
+                    <fullName>SAP transitioned from 2014 VDC</fullName>
+                    <default>false</default>
+                    <label>SAP transitioned from 2014 VDC</label>
+                </value>
+                <value>
+                    <fullName>SAP transitioned to 2015 VDC</fullName>
+                    <default>false</default>
+                    <label>SAP transitioned to 2015 VDC</label>
+                </value>
+                <value>
+                    <fullName>SNAP Pricing Contract</fullName>
+                    <default>false</default>
+                    <label>SNAP Pricing Contract</label>
+                </value>
+                <value>
+                    <fullName>SUTS Inquiry, SUTS Onboarding</fullName>
+                    <default>false</default>
+                    <label>SUTS Inquiry, SUTS Onboarding</label>
+                </value>
+                <value>
+                    <fullName>Trial Signup</fullName>
+                    <default>false</default>
+                    <label>Trial Signup</label>
+                </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+                <value>
+                    <fullName>Discuss Products/Services</fullName>
+                    <default>false</default>
+                    <label>Discuss Products/Services</label>
+                </value>
+                <value>
+                    <fullName>Information Gathering/Prospecting</fullName>
+                    <default>false</default>
+                    <label>Information Gathering/Prospecting</label>
+                </value>
+                <value>
+                    <fullName>Conduct a Demonstration</fullName>
+                    <default>false</default>
+                    <label>Conduct a Demonstration</label>
+                </value>
+                <value>
+                    <fullName>Close Business paperwork</fullName>
+                    <default>false</default>
+                    <label>Close Business paperwork</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>FUll Staff Training</fullName>
+                    <default>false</default>
+                    <label>FUll Staff Training</label>
+                </value>
+                <value>
+                    <fullName>Troubleshooting</fullName>
+                    <default>false</default>
+                    <label>Troubleshooting</label>
+                </value>
+                <value>
+                    <fullName>Pro-Call</fullName>
+                    <default>false</default>
+                    <label>Pro-Call</label>
+                </value>
+                <value>
+                    <fullName>Follow Up</fullName>
+                    <default>false</default>
+                    <label>Follow Up</label>
+                </value>
+                <value>
+                    <fullName>SPA Event</fullName>
+                    <default>false</default>
+                    <label>SPA Event</label>
+                </value>
+                <value>
+                    <fullName>Seminar Follow Up</fullName>
+                    <default>false</default>
+                    <label>Seminar Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Tradeshow Follow up</fullName>
+                    <default>false</default>
+                    <label>Tradeshow Follow up</label>
+                </value>
+                <value>
+                    <fullName>Webinar Follow Up</fullName>
+                    <default>false</default>
+                    <label>Webinar Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Customer Education</fullName>
+                    <default>false</default>
+                    <label>Customer Education</label>
+                </value>
+                <value>
+                    <fullName>Instrument Maintenance and Inspection</fullName>
+                    <default>false</default>
+                    <label>Instrument Maintenance and Inspection</label>
+                </value>
+                <value>
+                    <fullName>Quarterly Priorities</fullName>
+                    <default>false</default>
+                    <label>Quarterly Priorities</label>
+                </value>
+                <value>
+                    <fullName>Activation</fullName>
+                    <default>false</default>
+                    <label>Activation</label>
+                </value>
+                <value>
+                    <fullName>Customer Feedback</fullName>
+                    <default>false</default>
+                    <label>Customer Feedback</label>
+                </value>
+                <value>
+                    <fullName>LOB Projects</fullName>
+                    <default>false</default>
+                    <label>LOB Projects</label>
+                </value>
+                <value>
+                    <fullName>Shipping Issues</fullName>
+                    <default>false</default>
+                    <label>Shipping Issues</label>
+                </value>
+                <value>
+                    <fullName>Re-Install Equipment</fullName>
+                    <default>false</default>
+                    <label>Re-Install Equipment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Assignee_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assignee Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Attachment_Indicator__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Attachment Indicator</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Call_Duration_Formatted__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ((MOD(CallDurationInSeconds,3600)/60)&gt;10, 
+
+TEXT(FLOOR(CallDurationInSeconds/3600)) + &quot;:&quot;, 
+TEXT(FLOOR(CallDurationInSeconds/3600)) + &quot;:0&quot;) 
+
++ IF((MOD(MOD(CallDurationInSeconds,3600),60))&gt;10, 
+
+TEXT( FLOOR(MOD(CallDurationInSeconds,3600)/60)) + &quot;:&quot;, 
+TEXT( FLOOR(MOD(CallDurationInSeconds,3600)/60)) + &quot;:0&quot;) 
+
++ TEXT(MOD(MOD(CallDurationInSeconds,3600),60))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Call Duration Formatted</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Member_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Member Name</label>
+        <length>40</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Member_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Member Status</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Action__c</fullName>
+        <description>Field for Case Action for Technical Service Activity Task type</description>
+        <externalId>false</externalId>
+        <label>Case Actions</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corrective Action Initiated</fullName>
+                    <default>false</default>
+                    <label>Corrective Action Initiated</label>
+                </value>
+                <value>
+                    <fullName>Customer Returning Kit for Investigation</fullName>
+                    <default>false</default>
+                    <label>Customer Returning Kit for Investigation</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Data</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Data</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Samples</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Samples</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Software Database</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Software Database</label>
+                </value>
+                <value>
+                    <fullName>Deviation Report Initiated</fullName>
+                    <default>false</default>
+                    <label>Deviation Report Initiated</label>
+                </value>
+                <value>
+                    <fullName>Discussion with Other IDEXX Groups</fullName>
+                    <default>false</default>
+                    <label>Discussion with Other IDEXX Groups</label>
+                </value>
+                <value>
+                    <fullName>Equipment Maintenance</fullName>
+                    <default>false</default>
+                    <label>Equipment Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Installation of Instrument(s)</fullName>
+                    <default>false</default>
+                    <label>Installation of Instrument(s)</label>
+                </value>
+                <value>
+                    <fullName>No Response Fom Customer</fullName>
+                    <default>false</default>
+                    <label>No Response Fom Customer</label>
+                </value>
+                <value>
+                    <fullName>Presentation PSRB or ePSRB</fullName>
+                    <default>false</default>
+                    <label>Presentation PSRB or ePSRB</label>
+                </value>
+                <value>
+                    <fullName>Retraining via Phone</fullName>
+                    <default>false</default>
+                    <label>Retraining via Phone</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conference Call</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conference Call</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Customer Visit</fullName>
+                    <default>false</default>
+                    <label>Scheduling Customer Visit</label>
+                </value>
+                <value>
+                    <fullName>Sending Customer Data</fullName>
+                    <default>false</default>
+                    <label>Sending Customer Data</label>
+                </value>
+                <value>
+                    <fullName>Sending Replacement Kit</fullName>
+                    <default>false</default>
+                    <label>Sending Replacement Kit</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention in our Facilities</fullName>
+                    <default>false</default>
+                    <label>Service Intervention in our Facilities</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention in Randox Facilities</fullName>
+                    <default>false</default>
+                    <label>Service Intervention in Randox Facilities</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention on Site</fullName>
+                    <default>false</default>
+                    <label>Service Intervention on Site</label>
+                </value>
+                <value>
+                    <fullName>Shipping replacement Instrument</fullName>
+                    <default>false</default>
+                    <label>Shipping replacement Instrument</label>
+                </value>
+                <value>
+                    <fullName>Testing of Samples/Kits in Process</fullName>
+                    <default>false</default>
+                    <label>Testing of Samples/Kits in Process</label>
+                </value>
+                <value>
+                    <fullName>Troubleshooting Discussion</fullName>
+                    <default>false</default>
+                    <label>Troubleshooting Discussion</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Area Manager Follow Up</fullName>
+                    <default>false</default>
+                    <label>Waiting for Area Manager Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Customer Response</fullName>
+                    <default>false</default>
+                    <label>Waiting for Customer Response</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Field Technician Intervention</fullName>
+                    <default>false</default>
+                    <label>Waiting for Field Technician Intervention</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_Actions__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Actions</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corrective Action Initiated</fullName>
+                    <default>false</default>
+                    <label>Corrective Action Initiated</label>
+                </value>
+                <value>
+                    <fullName>Customer Returning Kit for Investigation</fullName>
+                    <default>false</default>
+                    <label>Customer Returning Kit for Investigation</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Data</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Data</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Samples</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Samples</label>
+                </value>
+                <value>
+                    <fullName>Customer Sending Software Database</fullName>
+                    <default>false</default>
+                    <label>Customer Sending Software Database</label>
+                </value>
+                <value>
+                    <fullName>Deviation Report Initiated</fullName>
+                    <default>false</default>
+                    <label>Deviation Report Initiated</label>
+                </value>
+                <value>
+                    <fullName>Discussion with Other IDEXX Groups</fullName>
+                    <default>false</default>
+                    <label>Discussion with Other IDEXX Groups</label>
+                </value>
+                <value>
+                    <fullName>Equipment Maintenance</fullName>
+                    <default>false</default>
+                    <label>Equipment Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Installation of Instrument(s)</fullName>
+                    <default>false</default>
+                    <label>Installation of Instrument(s)</label>
+                </value>
+                <value>
+                    <fullName>No Response Fom Customer</fullName>
+                    <default>false</default>
+                    <label>No Response Fom Customer</label>
+                </value>
+                <value>
+                    <fullName>Presentation PSRB or ePSRB</fullName>
+                    <default>false</default>
+                    <label>Presentation PSRB or ePSRB</label>
+                </value>
+                <value>
+                    <fullName>Retraining via Phone</fullName>
+                    <default>false</default>
+                    <label>Retraining via Phone</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Conference Call</fullName>
+                    <default>false</default>
+                    <label>Scheduling Conference Call</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Customer Visit</fullName>
+                    <default>false</default>
+                    <label>Scheduling Customer Visit</label>
+                </value>
+                <value>
+                    <fullName>Sending Customer Data</fullName>
+                    <default>false</default>
+                    <label>Sending Customer Data</label>
+                </value>
+                <value>
+                    <fullName>Sending Replacement Kit</fullName>
+                    <default>false</default>
+                    <label>Sending Replacement Kit</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention in our Facilities</fullName>
+                    <default>false</default>
+                    <label>Service Intervention in our Facilities</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention in Randox Facilities</fullName>
+                    <default>false</default>
+                    <label>Service Intervention in Randox Facilities</label>
+                </value>
+                <value>
+                    <fullName>Service Intervention on Site</fullName>
+                    <default>false</default>
+                    <label>Service Intervention on Site</label>
+                </value>
+                <value>
+                    <fullName>Shipping replacement Instrument</fullName>
+                    <default>false</default>
+                    <label>Shipping replacement Instrument</label>
+                </value>
+                <value>
+                    <fullName>Testing of Samples/Kits in Process</fullName>
+                    <default>false</default>
+                    <label>Testing of Samples/Kits in Process</label>
+                </value>
+                <value>
+                    <fullName>Troubleshooting Discussion</fullName>
+                    <default>false</default>
+                    <label>Troubleshooting Discussion</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Area Manager Follow Up</fullName>
+                    <default>false</default>
+                    <label>Waiting for Area Manager Follow Up</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Customer Response</fullName>
+                    <default>false</default>
+                    <label>Waiting for Customer Response</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Field Technician Intervention</fullName>
+                    <default>false</default>
+                    <label>Waiting for Field Technician Intervention</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DSR_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>DSR Name</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>sourced from SAP via DW</fullName>
+                    <default>false</default>
+                    <label>sourced from SAP via DW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_of_Activity__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of Activity</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Decision_Maker__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Decision Maker</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Distributor_Ride_With__c</fullName>
+        <externalId>false</externalId>
+        <label>Distributor Ride With</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>sourced from SAP via DW</fullName>
+                    <default>false</default>
+                    <label>sourced from SAP via DW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <externalId>false</externalId>
+        <label>Duration</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5 minutes</fullName>
+                    <default>false</default>
+                    <label>5 minutes</label>
+                </value>
+                <value>
+                    <fullName>15 minutes</fullName>
+                    <default>false</default>
+                    <label>15 minutes</label>
+                </value>
+                <value>
+                    <fullName>30 minutes</fullName>
+                    <default>false</default>
+                    <label>30 minutes</label>
+                </value>
+                <value>
+                    <fullName>45 minutes</fullName>
+                    <default>false</default>
+                    <label>45 minutes</label>
+                </value>
+                <value>
+                    <fullName>1 hour</fullName>
+                    <default>false</default>
+                    <label>1 hour</label>
+                </value>
+                <value>
+                    <fullName>1.5 hours</fullName>
+                    <default>false</default>
+                    <label>1.5 hours</label>
+                </value>
+                <value>
+                    <fullName>2 hours</fullName>
+                    <default>false</default>
+                    <label>2 hours</label>
+                </value>
+                <value>
+                    <fullName>2.5 hours</fullName>
+                    <default>false</default>
+                    <label>2.5 hours</label>
+                </value>
+                <value>
+                    <fullName>3 hours</fullName>
+                    <default>false</default>
+                    <label>3 hours</label>
+                </value>
+                <value>
+                    <fullName>3.5 hours</fullName>
+                    <default>false</default>
+                    <label>3.5 hours</label>
+                </value>
+                <value>
+                    <fullName>4 hours</fullName>
+                    <default>false</default>
+                    <label>4 hours</label>
+                </value>
+                <value>
+                    <fullName>4.5 hours</fullName>
+                    <default>false</default>
+                    <label>4.5 hours</label>
+                </value>
+                <value>
+                    <fullName>5 hours</fullName>
+                    <default>false</default>
+                    <label>5 hours</label>
+                </value>
+                <value>
+                    <fullName>5.5 hours</fullName>
+                    <default>false</default>
+                    <label>5.5 hours</label>
+                </value>
+                <value>
+                    <fullName>6 hours</fullName>
+                    <default>false</default>
+                    <label>6 hours</label>
+                </value>
+                <value>
+                    <fullName>6.5 hours</fullName>
+                    <default>false</default>
+                    <label>6.5 hours</label>
+                </value>
+                <value>
+                    <fullName>7 hours</fullName>
+                    <default>false</default>
+                    <label>7 hours</label>
+                </value>
+                <value>
+                    <fullName>7.5 hours</fullName>
+                    <default>false</default>
+                    <label>7.5 hours</label>
+                </value>
+                <value>
+                    <fullName>8 hours</fullName>
+                    <default>false</default>
+                    <label>8 hours</label>
+                </value>
+                <value>
+                    <fullName>8.5 hours</fullName>
+                    <default>false</default>
+                    <label>8.5 hours</label>
+                </value>
+                <value>
+                    <fullName>9 hours</fullName>
+                    <default>false</default>
+                    <label>9 hours</label>
+                </value>
+                <value>
+                    <fullName>9.5 hours</fullName>
+                    <default>false</default>
+                    <label>9.5 hours</label>
+                </value>
+                <value>
+                    <fullName>10 hours</fullName>
+                    <default>false</default>
+                    <label>10 hours</label>
+                </value>
+                <value>
+                    <fullName>10.5 hours</fullName>
+                    <default>false</default>
+                    <label>10.5 hours</label>
+                </value>
+                <value>
+                    <fullName>11 hours</fullName>
+                    <default>false</default>
+                    <label>11 hours</label>
+                </value>
+                <value>
+                    <fullName>11.5 hours</fullName>
+                    <default>false</default>
+                    <label>11.5 hours</label>
+                </value>
+                <value>
+                    <fullName>12 hours</fullName>
+                    <default>false</default>
+                    <label>12 hours</label>
+                </value>
+                <value>
+                    <fullName>12.5 hours</fullName>
+                    <default>false</default>
+                    <label>12.5 hours</label>
+                </value>
+                <value>
+                    <fullName>13 hours</fullName>
+                    <default>false</default>
+                    <label>13 hours</label>
+                </value>
+                <value>
+                    <fullName>13.5 hours</fullName>
+                    <default>false</default>
+                    <label>13.5 hours</label>
+                </value>
+                <value>
+                    <fullName>14 hours</fullName>
+                    <default>false</default>
+                    <label>14 hours</label>
+                </value>
+                <value>
+                    <fullName>14.5 hours</fullName>
+                    <default>false</default>
+                    <label>14.5 hours</label>
+                </value>
+                <value>
+                    <fullName>15 hours</fullName>
+                    <default>false</default>
+                    <label>15 hours</label>
+                </value>
+                <value>
+                    <fullName>15.5 hours</fullName>
+                    <default>false</default>
+                    <label>15.5 hours</label>
+                </value>
+                <value>
+                    <fullName>16 hours</fullName>
+                    <default>false</default>
+                    <label>16 hours</label>
+                </value>
+                <value>
+                    <fullName>16.5 hours</fullName>
+                    <default>false</default>
+                    <label>16.5 hours</label>
+                </value>
+                <value>
+                    <fullName>17 hours</fullName>
+                    <default>false</default>
+                    <label>17 hours</label>
+                </value>
+                <value>
+                    <fullName>17.5 hours</fullName>
+                    <default>false</default>
+                    <label>17.5 hours</label>
+                </value>
+                <value>
+                    <fullName>18 hours</fullName>
+                    <default>false</default>
+                    <label>18 hours</label>
+                </value>
+                <value>
+                    <fullName>18.5 hours</fullName>
+                    <default>false</default>
+                    <label>18.5 hours</label>
+                </value>
+                <value>
+                    <fullName>19 hours</fullName>
+                    <default>false</default>
+                    <label>19 hours</label>
+                </value>
+                <value>
+                    <fullName>19.5 hours</fullName>
+                    <default>false</default>
+                    <label>19.5 hours</label>
+                </value>
+                <value>
+                    <fullName>20 hours</fullName>
+                    <default>false</default>
+                    <label>20 hours</label>
+                </value>
+                <value>
+                    <fullName>20.5 hours</fullName>
+                    <default>false</default>
+                    <label>20.5 hours</label>
+                </value>
+                <value>
+                    <fullName>21 hours</fullName>
+                    <default>false</default>
+                    <label>21 hours</label>
+                </value>
+                <value>
+                    <fullName>21.5 hours</fullName>
+                    <default>false</default>
+                    <label>21.5 hours</label>
+                </value>
+                <value>
+                    <fullName>22 hours</fullName>
+                    <default>false</default>
+                    <label>22 hours</label>
+                </value>
+                <value>
+                    <fullName>22.5 hours</fullName>
+                    <default>false</default>
+                    <label>22.5 hours</label>
+                </value>
+                <value>
+                    <fullName>23 hours</fullName>
+                    <default>false</default>
+                    <label>23 hours</label>
+                </value>
+                <value>
+                    <fullName>23.5 hours</fullName>
+                    <default>false</default>
+                    <label>23.5 hours</label>
+                </value>
+                <value>
+                    <fullName>24 hours</fullName>
+                    <default>false</default>
+                    <label>24 hours</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Interaction_Origin__c</fullName>
+        <externalId>false</externalId>
+        <label>Interaction Origin</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Call</fullName>
+                    <default>false</default>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Inbound Phone Call</fullName>
+                    <default>true</default>
+                    <label>Inbound Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Outbound Phone Call</fullName>
+                    <default>false</default>
+                    <label>Outbound Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Site Visit</fullName>
+                    <default>false</default>
+                    <label>Site Visit</label>
+                </value>
+                <value>
+                    <fullName>Trade Show</fullName>
+                    <default>false</default>
+                    <label>Trade Show</label>
+                </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Method</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inbound Phone Call</fullName>
+                    <default>false</default>
+                    <label>Inbound Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Outbound Phone Call</fullName>
+                    <default>false</default>
+                    <label>Outbound Phone Call</label>
+                </value>
+                <value>
+                    <fullName>eMail</fullName>
+                    <default>false</default>
+                    <label>eMail</label>
+                </value>
+                <value>
+                    <fullName>Chat</fullName>
+                    <default>false</default>
+                    <label>Chat</label>
+                </value>
+                <value>
+                    <fullName>Trade Show</fullName>
+                    <default>false</default>
+                    <label>Trade Show</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+                <value>
+                    <fullName>Fax</fullName>
+                    <default>false</default>
+                    <label>Fax</label>
+                </value>
+                <value>
+                    <fullName>Mail</fullName>
+                    <default>false</default>
+                    <label>Mail</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Notes_textarea__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Outcome_of_the_Call__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome of the Call</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Z</fullName>
+                    <default>false</default>
+                    <label>Z</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Closed Unusual</fullName>
+                    <default>false</default>
+                    <label>Closed Unusual</label>
+                </value>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Open Unusual</fullName>
+                    <default>false</default>
+                    <label>Open Unusual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <externalId>false</externalId>
+        <label>Products and Services</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Allergy</fullName>
+                    <default>false</default>
+                    <label>Allergy</label>
+                </value>
+                <value>
+                    <fullName>Catalyst (Dx or One) Analyzer</fullName>
+                    <default>false</default>
+                    <label>Catalyst (Dx or One) Analyzer</label>
+                </value>
+                <value>
+                    <fullName>Catalyst CLIPS</fullName>
+                    <default>false</default>
+                    <label>Catalyst CLIPS</label>
+                </value>
+                <value>
+                    <fullName>Catalyst singles</fullName>
+                    <default>false</default>
+                    <label>Catalyst singles</label>
+                </value>
+                <value>
+                    <fullName>CBC5r</fullName>
+                    <default>false</default>
+                    <label>CBC5r</label>
+                </value>
+                <value>
+                    <fullName>Coag Cassettes</fullName>
+                    <default>false</default>
+                    <label>Coag Cassettes</label>
+                </value>
+                <value>
+                    <fullName>Coag Dx Analyzer</fullName>
+                    <default>false</default>
+                    <label>Coag Dx Analyzer</label>
+                </value>
+                <value>
+                    <fullName>Competitive Digital</fullName>
+                    <default>false</default>
+                    <label>Competitive Digital</label>
+                </value>
+                <value>
+                    <fullName>Competitive IHD</fullName>
+                    <default>false</default>
+                    <label>Competitive IHD</label>
+                </value>
+                <value>
+                    <fullName>Competitive PIMS</fullName>
+                    <default>false</default>
+                    <label>Competitive PIMS</label>
+                </value>
+                <value>
+                    <fullName>Digital System</fullName>
+                    <default>false</default>
+                    <label>Digital System</label>
+                </value>
+                <value>
+                    <fullName>eCommerce/IOO</fullName>
+                    <default>false</default>
+                    <label>eCommerce/IOO</label>
+                </value>
+                <value>
+                    <fullName>Fecals</fullName>
+                    <default>false</default>
+                    <label>Fecals</label>
+                </value>
+                <value>
+                    <fullName>Fructosamine Slide</fullName>
+                    <default>false</default>
+                    <label>Fructosamine Slide</label>
+                </value>
+                <value>
+                    <fullName>Histology</fullName>
+                    <default>false</default>
+                    <label>Histology</label>
+                </value>
+                <value>
+                    <fullName>IDEXX Care Plus</fullName>
+                    <default>false</default>
+                    <label>IDEXX Care Plus</label>
+                </value>
+                <value>
+                    <fullName>IDEXX PIMS (ICS, Neo, DVMax)</fullName>
+                    <default>false</default>
+                    <label>IDEXX PIMS (ICS, Neo, DVMax)</label>
+                </value>
+                <value>
+                    <fullName>IDEXX Points</fullName>
+                    <default>false</default>
+                    <label>IDEXX Points</label>
+                </value>
+                <value>
+                    <fullName>IVLS/IVS</fullName>
+                    <default>false</default>
+                    <label>IVLS/IVS</label>
+                </value>
+                <value>
+                    <fullName>Lab Supplies</fullName>
+                    <default>false</default>
+                    <label>Lab Supplies</label>
+                </value>
+                <value>
+                    <fullName>LaserCyte Analyzer</fullName>
+                    <default>false</default>
+                    <label>LaserCyte Analyzer</label>
+                </value>
+                <value>
+                    <fullName>Literature</fullName>
+                    <default>false</default>
+                    <label>Literature</label>
+                </value>
+                <value>
+                    <fullName>MiniSpin</fullName>
+                    <default>false</default>
+                    <label>MiniSpin</label>
+                </value>
+                <value>
+                    <fullName>PCR</fullName>
+                    <default>false</default>
+                    <label>PCR</label>
+                </value>
+                <value>
+                    <fullName>PetDetect</fullName>
+                    <default>false</default>
+                    <label>PetDetect</label>
+                </value>
+                <value>
+                    <fullName>PHN Pro/3D/Petly Plans</fullName>
+                    <default>false</default>
+                    <label>PHN Pro/3D/Petly Plans</label>
+                </value>
+                <value>
+                    <fullName>Practice Supplies</fullName>
+                    <default>false</default>
+                    <label>Practice Supplies</label>
+                </value>
+                <value>
+                    <fullName>Preventive Care</fullName>
+                    <default>false</default>
+                    <label>Preventive Care</label>
+                </value>
+                <value>
+                    <fullName>ProCyte Dx Analyzer</fullName>
+                    <default>false</default>
+                    <label>ProCyte Dx Analyzer</label>
+                </value>
+                <value>
+                    <fullName>ProCyte Reagents</fullName>
+                    <default>false</default>
+                    <label>ProCyte Reagents</label>
+                </value>
+                <value>
+                    <fullName>Quant C6</fullName>
+                    <default>false</default>
+                    <label>Quant C6</label>
+                </value>
+                <value>
+                    <fullName>Reference Labs</fullName>
+                    <default>false</default>
+                    <label>Reference Labs</label>
+                </value>
+                <value>
+                    <fullName>SDMA</fullName>
+                    <default>false</default>
+                    <label>SDMA</label>
+                </value>
+                <value>
+                    <fullName>SediVue Dx Analzyer</fullName>
+                    <default>false</default>
+                    <label>SediVue Dx Analzyer</label>
+                </value>
+                <value>
+                    <fullName>SmartLink</fullName>
+                    <default>false</default>
+                    <label>SmartLink</label>
+                </value>
+                <value>
+                    <fullName>SNAP 4Dx Plus</fullName>
+                    <default>false</default>
+                    <label>SNAP 4Dx Plus</label>
+                </value>
+                <value>
+                    <fullName>SNAP cPL</fullName>
+                    <default>false</default>
+                    <label>SNAP cPL</label>
+                </value>
+                <value>
+                    <fullName>SNAP Feline Triple</fullName>
+                    <default>false</default>
+                    <label>SNAP Feline Triple</label>
+                </value>
+                <value>
+                    <fullName>SNAP Feline Combo</fullName>
+                    <default>false</default>
+                    <label>SNAP Feline Combo</label>
+                </value>
+                <value>
+                    <fullName>SNAP Feline proBNP</fullName>
+                    <default>false</default>
+                    <label>SNAP Feline proBNP</label>
+                </value>
+                <value>
+                    <fullName>SNAP FeLV</fullName>
+                    <default>false</default>
+                    <label>SNAP FeLV</label>
+                </value>
+                <value>
+                    <fullName>SNAP Foal</fullName>
+                    <default>false</default>
+                    <label>SNAP Foal</label>
+                </value>
+                <value>
+                    <fullName>SNAP fPL</fullName>
+                    <default>false</default>
+                    <label>SNAP fPL</label>
+                </value>
+                <value>
+                    <fullName>SNAP Giardia</fullName>
+                    <default>false</default>
+                    <label>SNAP Giardia</label>
+                </value>
+                <value>
+                    <fullName>SNAP Heartworm RT</fullName>
+                    <default>false</default>
+                    <label>SNAP Heartworm RT</label>
+                </value>
+                <value>
+                    <fullName>SNAP Lepto</fullName>
+                    <default>false</default>
+                    <label>SNAP Lepto</label>
+                </value>
+                <value>
+                    <fullName>SNAP Parvo</fullName>
+                    <default>false</default>
+                    <label>SNAP Parvo</label>
+                </value>
+                <value>
+                    <fullName>SNAP Pro Device</fullName>
+                    <default>false</default>
+                    <label>SNAP Pro Device</label>
+                </value>
+                <value>
+                    <fullName>SNAP QIA</fullName>
+                    <default>false</default>
+                    <label>SNAP QIA</label>
+                </value>
+                <value>
+                    <fullName>SNAPshox Dx Analyzer</fullName>
+                    <default>false</default>
+                    <label>SNAPshox Dx Analyzer</label>
+                </value>
+                <value>
+                    <fullName>Spec cPL/fPL</fullName>
+                    <default>false</default>
+                    <label>Spec cPL/fPL</label>
+                </value>
+                <value>
+                    <fullName>Statspin</fullName>
+                    <default>false</default>
+                    <label>Statspin</label>
+                </value>
+                <value>
+                    <fullName>STEPs</fullName>
+                    <default>false</default>
+                    <label>STEPs</label>
+                </value>
+                <value>
+                    <fullName>Total T4 slide</fullName>
+                    <default>false</default>
+                    <label>Total T4 slide</label>
+                </value>
+                <value>
+                    <fullName>UA Analyzer</fullName>
+                    <default>false</default>
+                    <label>UA Analyzer</label>
+                </value>
+                <value>
+                    <fullName>UA Strips</fullName>
+                    <default>false</default>
+                    <label>UA Strips</label>
+                </value>
+                <value>
+                    <fullName>UPC Catalyst</fullName>
+                    <default>false</default>
+                    <label>UPC Catalyst</label>
+                </value>
+                <value>
+                    <fullName>Vet Autoread/Centrifuge</fullName>
+                    <default>false</default>
+                    <label>Vet Autoread/Centrifuge</label>
+                </value>
+                <value>
+                    <fullName>VetConnect Plus</fullName>
+                    <default>false</default>
+                    <label>VetConnect Plus</label>
+                </value>
+                <value>
+                    <fullName>VetLyte Analyzer</fullName>
+                    <default>false</default>
+                    <label>VetLyte Analyzer</label>
+                </value>
+                <value>
+                    <fullName>VetStat Analyzer</fullName>
+                    <default>false</default>
+                    <label>VetStat Analyzer</label>
+                </value>
+                <value>
+                    <fullName>VetStat Cassettes</fullName>
+                    <default>false</default>
+                    <label>VetStat Cassettes</label>
+                </value>
+                <value>
+                    <fullName>VetTest Analyzer</fullName>
+                    <default>false</default>
+                    <label>VetTest Analyzer</label>
+                </value>
+                <value>
+                    <fullName>VetTest Profiles</fullName>
+                    <default>false</default>
+                    <label>VetTest Profiles</label>
+                </value>
+                <value>
+                    <fullName>VetTest singles</fullName>
+                    <default>false</default>
+                    <label>VetTest singles</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>9</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reason_For_Visit__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason For Visit</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>Customer Defected</fullName>
+                    <default>false</default>
+                    <label>Customer Defected</label>
+                </value>
+                <value>
+                    <fullName>IDEXX Care Plus Visit</fullName>
+                    <default>false</default>
+                    <label>IDEXX Care Plus Visit</label>
+                </value>
+                <value>
+                    <fullName>New Install</fullName>
+                    <default>false</default>
+                    <label>New Install</label>
+                </value>
+                <value>
+                    <fullName>Post Installation Follow-up</fullName>
+                    <default>false</default>
+                    <label>Post Installation Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Pre-Install Site Survey</fullName>
+                    <default>false</default>
+                    <label>Pre-Install Site Survey</label>
+                </value>
+                <value>
+                    <fullName>Strategic</fullName>
+                    <default>false</default>
+                    <label>Strategic</label>
+                </value>
+                <value>
+                    <fullName>Technical Support and Trial Sign Up</fullName>
+                    <default>false</default>
+                    <label>Technical Support and Trial Sign Up</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ride_With__c</fullName>
+        <externalId>false</externalId>
+        <label>Ride With</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DSR</fullName>
+                    <default>false</default>
+                    <label>DSR</label>
+                </value>
+                <value>
+                    <fullName>Idexx</fullName>
+                    <default>false</default>
+                    <label>Idexx</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Activity_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Activity ID</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Successful__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Was this a successful call with a Top 200 account that satisfies the twice-monthly call requirement?</inlineHelpText>
+        <label>Made Contact</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Task_Name__c</fullName>
+        <displayFormat>T-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Task Name</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Top_200_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Top 200 Account</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Call__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Call</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>X</fullName>
+                    <default>false</default>
+                    <label>X</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>Z</fullName>
+                    <default>false</default>
+                    <label>Z</label>
+                </value>
+                <value>
+                    <fullName>Inbound</fullName>
+                    <default>false</default>
+                    <label>Inbound</label>
+                </value>
+                <value>
+                    <fullName>Outbound</fullName>
+                    <default>false</default>
+                    <label>Outbound</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>User_Reserved_Field__c</fullName>
+        <description>Test field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>free form text 50 char</inlineHelpText>
+        <label>User Reserved Field</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>selectedcampaign__c</fullName>
+        <externalId>false</externalId>
+        <label>selectedcampaign</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
@@ -42,6 +1610,32 @@
         <fullName>MyActivities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Open Activities</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
     </listViews>
     <listViews>
         <fullName>TodaysTasks</fullName>
@@ -77,6 +1671,22 @@
             <value>YESTERDAY</value>
         </filters>
         <label>Upcoming Events</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Tasks</label>
+        <language>en_US</language>
     </listViews>
     <searchLayouts>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>

@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom object created to add competitor&apos;s products, services, and contracts to the object associated with the related list and save for future use.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Look up relation to account with whom the Competitor Products will be associated</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Competitor Products</relationshipLabel>
+        <relationshipName>Competitor_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Agreement</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Chemistry</fullName>
+                    <default>false</default>
+                    <label>Chemistry</label>
+                </value>
+                <value>
+                    <fullName>Digital</fullName>
+                    <default>false</default>
+                    <label>Digital</label>
+                </value>
+                <value>
+                    <fullName>Clientrax</fullName>
+                    <default>false</default>
+                    <label>Clientrax</label>
+                </value>
+                <value>
+                    <fullName>Heartworm</fullName>
+                    <default>false</default>
+                    <label>Heartworm</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Competitor__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Species_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Adiagen/Biomerieux</fullName>
+                    <default>false</default>
+                    <label>Adiagen/Biomerieux</label>
+                </value>
+                <value>
+                    <fullName>Andiatec</fullName>
+                    <default>false</default>
+                    <label>Andiatec</label>
+                </value>
+                <value>
+                    <fullName>Anigen</fullName>
+                    <default>false</default>
+                    <label>Anigen</label>
+                </value>
+                <value>
+                    <fullName>Bayer</fullName>
+                    <default>false</default>
+                    <label>Bayer</label>
+                </value>
+                <value>
+                    <fullName>Betastar</fullName>
+                    <default>false</default>
+                    <label>Betastar</label>
+                </value>
+                <value>
+                    <fullName>Biocheck</fullName>
+                    <default>false</default>
+                    <label>Biocheck</label>
+                </value>
+                <value>
+                    <fullName>Biotracking/Biopryn</fullName>
+                    <default>false</default>
+                    <label>Biotracking/Biopryn</label>
+                </value>
+                <value>
+                    <fullName>BIVI/Svanova</fullName>
+                    <default>false</default>
+                    <label>BIVI/Svanova</label>
+                </value>
+                <value>
+                    <fullName>Charm</fullName>
+                    <default>false</default>
+                    <label>Charm</label>
+                </value>
+                <value>
+                    <fullName>Delvo</fullName>
+                    <default>false</default>
+                    <label>Delvo</label>
+                </value>
+                <value>
+                    <fullName>Gerbion</fullName>
+                    <default>false</default>
+                    <label>Gerbion</label>
+                </value>
+                <value>
+                    <fullName>Hipra</fullName>
+                    <default>false</default>
+                    <label>Hipra</label>
+                </value>
+                <value>
+                    <fullName>IDVet</fullName>
+                    <default>false</default>
+                    <label>IDVet</label>
+                </value>
+                <value>
+                    <fullName>Inganasa</fullName>
+                    <default>false</default>
+                    <label>Inganasa</label>
+                </value>
+                <value>
+                    <fullName>Neogen</fullName>
+                    <default>false</default>
+                    <label>Neogen</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other - Homebrew Assay</fullName>
+                    <default>false</default>
+                    <label>Other - Homebrew Assay</label>
+                </value>
+                <value>
+                    <fullName>Other - Palpation</fullName>
+                    <default>false</default>
+                    <label>Other - Palpation</label>
+                </value>
+                <value>
+                    <fullName>Other - Traditional Method</fullName>
+                    <default>false</default>
+                    <label>Other - Traditional Method</label>
+                </value>
+                <value>
+                    <fullName>Other - Ultrasound</fullName>
+                    <default>false</default>
+                    <label>Other - Ultrasound</label>
+                </value>
+                <value>
+                    <fullName>Portacheck</fullName>
+                    <default>false</default>
+                    <label>Portacheck</label>
+                </value>
+                <value>
+                    <fullName>Qiagen</fullName>
+                    <default>false</default>
+                    <label>Qiagen</label>
+                </value>
+                <value>
+                    <fullName>Tetracore</fullName>
+                    <default>false</default>
+                    <label>Tetracore</label>
+                </value>
+                <value>
+                    <fullName>Thermo/Life Tech/Prionics</fullName>
+                    <default>false</default>
+                    <label>Thermo/Life Tech/Prionics</label>
+                </value>
+                <value>
+                    <fullName>Unisensor</fullName>
+                    <default>false</default>
+                    <label>Unisensor</label>
+                </value>
+                <value>
+                    <fullName>VMRD</fullName>
+                    <default>false</default>
+                    <label>VMRD</label>
+                </value>
+                <value>
+                    <fullName>Zoetis/Synbiotics</fullName>
+                    <default>false</default>
+                    <label>Zoetis/Synbiotics</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Betastar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Charm</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Delvo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Neogen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Portacheck</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Unisensor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Adiagen/Biomerieux</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Andiatec</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Gerbion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Qiagen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>Thermo/Life Tech/Prionics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Anigen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Bayer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Biocheck</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Biotracking/Biopryn</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>BIVI/Svanova</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Hipra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>IDVet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Inganasa</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Other - Homebrew Assay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Other - Palpation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Other - Traditional Method</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Other - Ultrasound</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Tetracore</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>VMRD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Zoetis/Synbiotics</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Contracts__c</fullName>
+        <description>Text field for storing product competitor&apos;s contracts</description>
+        <externalId>false</externalId>
+        <label>Contracts</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disease_Condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Disease/Condition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Species_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acute Enteric</fullName>
+                    <default>false</default>
+                    <label>Acute Enteric</label>
+                </value>
+                <value>
+                    <fullName>AE</fullName>
+                    <default>false</default>
+                    <label>AE</label>
+                </value>
+                <value>
+                    <fullName>Aflatoxin</fullName>
+                    <default>false</default>
+                    <label>Aflatoxin</label>
+                </value>
+                <value>
+                    <fullName>ALV</fullName>
+                    <default>false</default>
+                    <label>ALV</label>
+                </value>
+                <value>
+                    <fullName>APP</fullName>
+                    <default>false</default>
+                    <label>APP</label>
+                </value>
+                <value>
+                    <fullName>APV</fullName>
+                    <default>false</default>
+                    <label>APV</label>
+                </value>
+                <value>
+                    <fullName>ASFV</fullName>
+                    <default>false</default>
+                    <label>ASFV</label>
+                </value>
+                <value>
+                    <fullName>Avian Influenza</fullName>
+                    <default>false</default>
+                    <label>Avian Influenza</label>
+                </value>
+                <value>
+                    <fullName>Beta Lactam</fullName>
+                    <default>false</default>
+                    <label>Beta Lactam</label>
+                </value>
+                <value>
+                    <fullName>Beta Tetra</fullName>
+                    <default>false</default>
+                    <label>Beta Tetra</label>
+                </value>
+                <value>
+                    <fullName>BetaTetraPirlimycin</fullName>
+                    <default>false</default>
+                    <label>BetaTetraPirlimycin</label>
+                </value>
+                <value>
+                    <fullName>Bluetongue</fullName>
+                    <default>false</default>
+                    <label>Bluetongue</label>
+                </value>
+                <value>
+                    <fullName>Bovine Abortion</fullName>
+                    <default>false</default>
+                    <label>Bovine Abortion</label>
+                </value>
+                <value>
+                    <fullName>Bovine TB/M bovis</fullName>
+                    <default>false</default>
+                    <label>Bovine TB/M bovis</label>
+                </value>
+                <value>
+                    <fullName>Brucellosis</fullName>
+                    <default>false</default>
+                    <label>Brucellosis</label>
+                </value>
+                <value>
+                    <fullName>BVDV</fullName>
+                    <default>false</default>
+                    <label>BVDV</label>
+                </value>
+                <value>
+                    <fullName>CAEV/MVV</fullName>
+                    <default>false</default>
+                    <label>CAEV/MVV</label>
+                </value>
+                <value>
+                    <fullName>Calf Diarrhea</fullName>
+                    <default>false</default>
+                    <label>Calf Diarrhea</label>
+                </value>
+                <value>
+                    <fullName>CAV</fullName>
+                    <default>false</default>
+                    <label>CAV</label>
+                </value>
+                <value>
+                    <fullName>CBPP</fullName>
+                    <default>false</default>
+                    <label>CBPP</label>
+                </value>
+                <value>
+                    <fullName>CCPP</fullName>
+                    <default>false</default>
+                    <label>CCPP</label>
+                </value>
+                <value>
+                    <fullName>Chlamydiosis</fullName>
+                    <default>false</default>
+                    <label>Chlamydiosis</label>
+                </value>
+                <value>
+                    <fullName>Contagious Agalactia</fullName>
+                    <default>false</default>
+                    <label>Contagious Agalactia</label>
+                </value>
+                <value>
+                    <fullName>CSFV</fullName>
+                    <default>false</default>
+                    <label>CSFV</label>
+                </value>
+                <value>
+                    <fullName>EBL/BLV</fullName>
+                    <default>false</default>
+                    <label>EBL/BLV</label>
+                </value>
+                <value>
+                    <fullName>Equine/Dist/MfgVar</fullName>
+                    <default>false</default>
+                    <label>Equine/Dist/MfgVar</label>
+                </value>
+                <value>
+                    <fullName>Fasciolosis</fullName>
+                    <default>false</default>
+                    <label>Fasciolosis</label>
+                </value>
+                <value>
+                    <fullName>FMD</fullName>
+                    <default>false</default>
+                    <label>FMD</label>
+                </value>
+                <value>
+                    <fullName>Gentamicin</fullName>
+                    <default>false</default>
+                    <label>Gentamicin</label>
+                </value>
+                <value>
+                    <fullName>Hypodermosis</fullName>
+                    <default>false</default>
+                    <label>Hypodermosis</label>
+                </value>
+                <value>
+                    <fullName>IBD</fullName>
+                    <default>false</default>
+                    <label>IBD</label>
+                </value>
+                <value>
+                    <fullName>IBR/BHV-1</fullName>
+                    <default>false</default>
+                    <label>IBR/BHV-1</label>
+                </value>
+                <value>
+                    <fullName>IBV</fullName>
+                    <default>false</default>
+                    <label>IBV</label>
+                </value>
+                <value>
+                    <fullName>ILT</fullName>
+                    <default>false</default>
+                    <label>ILT</label>
+                </value>
+                <value>
+                    <fullName>Macrolides</fullName>
+                    <default>false</default>
+                    <label>Macrolides</label>
+                </value>
+                <value>
+                    <fullName>Mastitis</fullName>
+                    <default>false</default>
+                    <label>Mastitis</label>
+                </value>
+                <value>
+                    <fullName>Melamine</fullName>
+                    <default>false</default>
+                    <label>Melamine</label>
+                </value>
+                <value>
+                    <fullName>M Hyopneumoniae</fullName>
+                    <default>false</default>
+                    <label>M Hyopneumoniae</label>
+                </value>
+                <value>
+                    <fullName>Microbial Inhibitor</fullName>
+                    <default>false</default>
+                    <label>Microbial Inhibitor</label>
+                </value>
+                <value>
+                    <fullName>Mycoplasma</fullName>
+                    <default>false</default>
+                    <label>Mycoplasma</label>
+                </value>
+                <value>
+                    <fullName>NDV</fullName>
+                    <default>false</default>
+                    <label>NDV</label>
+                </value>
+                <value>
+                    <fullName>Neosporosis</fullName>
+                    <default>false</default>
+                    <label>Neosporosis</label>
+                </value>
+                <value>
+                    <fullName>ORT</fullName>
+                    <default>false</default>
+                    <label>ORT</label>
+                </value>
+                <value>
+                    <fullName>Paratuberculosis/MAP</fullName>
+                    <default>false</default>
+                    <label>Paratuberculosis/MAP</label>
+                </value>
+                <value>
+                    <fullName>PM</fullName>
+                    <default>false</default>
+                    <label>PM</label>
+                </value>
+                <value>
+                    <fullName>Poultry/Dist/MfgVar</fullName>
+                    <default>false</default>
+                    <label>Poultry/Dist/MfgVar</label>
+                </value>
+                <value>
+                    <fullName>Pregnancy</fullName>
+                    <default>false</default>
+                    <label>Pregnancy</label>
+                </value>
+                <value>
+                    <fullName>PRRS</fullName>
+                    <default>false</default>
+                    <label>PRRS</label>
+                </value>
+                <value>
+                    <fullName>PRV/ADV</fullName>
+                    <default>false</default>
+                    <label>PRV/ADV</label>
+                </value>
+                <value>
+                    <fullName>Q Fever</fullName>
+                    <default>false</default>
+                    <label>Q Fever</label>
+                </value>
+                <value>
+                    <fullName>Quinolones</fullName>
+                    <default>false</default>
+                    <label>Quinolones</label>
+                </value>
+                <value>
+                    <fullName>REO</fullName>
+                    <default>false</default>
+                    <label>REO</label>
+                </value>
+                <value>
+                    <fullName>Respiratory Diseases</fullName>
+                    <default>false</default>
+                    <label>Respiratory Diseases</label>
+                </value>
+                <value>
+                    <fullName>REV</fullName>
+                    <default>false</default>
+                    <label>REV</label>
+                </value>
+                <value>
+                    <fullName>Ruminant/Dist/MfgVar</fullName>
+                    <default>false</default>
+                    <label>Ruminant/Dist/MfgVar</label>
+                </value>
+                <value>
+                    <fullName>Salmonella</fullName>
+                    <default>false</default>
+                    <label>Salmonella</label>
+                </value>
+                <value>
+                    <fullName>Schmallenberg Virus</fullName>
+                    <default>false</default>
+                    <label>Schmallenberg Virus</label>
+                </value>
+                <value>
+                    <fullName>Somatic Cell Count</fullName>
+                    <default>false</default>
+                    <label>Somatic Cell Count</label>
+                </value>
+                <value>
+                    <fullName>Strep Chlor Tetra</fullName>
+                    <default>false</default>
+                    <label>Strep Chlor Tetra</label>
+                </value>
+                <value>
+                    <fullName>Sulfamethazine</fullName>
+                    <default>false</default>
+                    <label>Sulfamethazine</label>
+                </value>
+                <value>
+                    <fullName>Swine/Dist/MfgVar</fullName>
+                    <default>false</default>
+                    <label>Swine/Dist/MfgVar</label>
+                </value>
+                <value>
+                    <fullName>Swine Influenza</fullName>
+                    <default>false</default>
+                    <label>Swine Influenza</label>
+                </value>
+                <value>
+                    <fullName>Swine Salmonella</fullName>
+                    <default>false</default>
+                    <label>Swine Salmonella</label>
+                </value>
+                <value>
+                    <fullName>Tetracycline</fullName>
+                    <default>false</default>
+                    <label>Tetracycline</label>
+                </value>
+                <value>
+                    <fullName>Toxoplasmosis</fullName>
+                    <default>false</default>
+                    <label>Toxoplasmosis</label>
+                </value>
+                <value>
+                    <fullName>Trichinellosis</fullName>
+                    <default>false</default>
+                    <label>Trichinellosis</label>
+                </value>
+                <value>
+                    <fullName>TSE</fullName>
+                    <default>false</default>
+                    <label>TSE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Aflatoxin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Beta Lactam</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Beta Tetra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>BetaTetraPirlimycin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Gentamicin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Macrolides</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Melamine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Microbial Inhibitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Quinolones</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Strep Chlor Tetra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Sulfamethazine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Contaminants</controllingFieldValue>
+                <valueName>Tetracycline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>AE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>ALV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>APV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>Avian Influenza</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>CAV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>IBD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>IBV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>ILT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>Mycoplasma</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>NDV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>ORT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>PM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>REO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>REV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry Tests</controllingFieldValue>
+                <valueName>Salmonella</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>Acute Enteric</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>APP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>ASFV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>CSFV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>FMD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>M Hyopneumoniae</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>PRRS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>PRV/ADV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>Swine Influenza</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>Swine Salmonella</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Swine Tests</controllingFieldValue>
+                <valueName>Trichinellosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Bluetongue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Bovine Abortion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Bovine TB/M bovis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Brucellosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>BVDV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>CAEV/MVV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Calf Diarrhea</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>CBPP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>CCPP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Chlamydiosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Contagious Agalactia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>EBL/BLV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Fasciolosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Hypodermosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>IBR/BHV-1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Mastitis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Neosporosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Paratuberculosis/MAP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Pregnancy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Q Fever</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Respiratory Diseases</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Schmallenberg Virus</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Somatic Cell Count</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>Toxoplasmosis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminant Tests</controllingFieldValue>
+                <valueName>TSE</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Estimated_Test_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Test/Year</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>lookup to opportunity to allow users to associate competitor products on opportunities</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Competitor Products</relationshipLabel>
+        <relationshipName>Competitor_Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Price_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Price/Test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Services__c</fullName>
+        <description>Text field to store information related to competitor services</description>
+        <externalId>false</externalId>
+        <label>Services</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Species_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Species/Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dairy Contaminants</fullName>
+                    <default>false</default>
+                    <label>Dairy Contaminants</label>
+                </value>
+                <value>
+                    <fullName>Poultry Tests</fullName>
+                    <default>false</default>
+                    <label>Poultry Tests</label>
+                </value>
+                <value>
+                    <fullName>Swine Tests</fullName>
+                    <default>false</default>
+                    <label>Swine Tests</label>
+                </value>
+                <value>
+                    <fullName>Ruminant Tests</fullName>
+                    <default>false</default>
+                    <label>Ruminant Tests</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ag ELISA</fullName>
+                    <default>false</default>
+                    <label>Ag ELISA</label>
+                </value>
+                <value>
+                    <fullName>Ab ELISA</fullName>
+                    <default>false</default>
+                    <label>Ab ELISA</label>
+                </value>
+                <value>
+                    <fullName>PCR (yellow)</fullName>
+                    <default>false</default>
+                    <label>PCR (yellow)</label>
+                </value>
+                <value>
+                    <fullName>POC</fullName>
+                    <default>false</default>
+                    <label>POC</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Competitor Product</label>
+    <nameField>
+        <label>Competitor Products Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Competitor Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Competitor_Product</fullName>
+        <availability>online</availability>
+        <description>new competitor product from the opportunity related list</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Competitor Product</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/a02/e?CF00Nj000000Asvnx={!Opportunity.Name}
+&amp;CF00Nj000000Asvnx_lkid={!Opportunity.Id}
+&amp;CF00Nj0000000j4xd={!Opportunity.Account}
+&amp;CF00Nj0000000j4xd_lkid={!Opportunity.AccountId}
+&amp;retURL=%2F{!Opportunity.Id}</url>
+    </webLinks>
+</CustomObject>

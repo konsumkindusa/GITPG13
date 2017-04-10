@@ -266,6 +266,16 @@
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>bobText__c</fullName>
+        <externalId>false</externalId>
+        <label>bobText</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllOpenLeads</fullName>
         <filterScope>Everything</filterScope>
@@ -277,6 +287,60 @@
         <label>All Open Leads</label>
     </listViews>
     <listViews>
+        <fullName>EMEA_France_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA France Leads</label>
+        <queue>EMEA_France_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EMEA_Germany_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA Germany Leads</label>
+        <queue>EMEA_Germany_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EMEA_Italy_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA Italy Leads</label>
+        <queue>EMEA_Italy_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EMEA_OER_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA OER Leads</label>
+        <queue>EMEA_OER_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EMEA_Spain_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA Spain Leads</label>
+        <queue>EMEA_Spain_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>EMEA_UK_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>EMEA UK Leads</label>
+        <queue>EMEA_UK_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyUnreadLeads</fullName>
         <filterScope>Mine</filterScope>
         <filters>
@@ -285,6 +349,51 @@
             <value>1</value>
         </filters>
         <label>My Unread Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>NA_Canada_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA Canada Leads</label>
+        <queue>NA_Canada_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NA_Central_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA Central Leads</label>
+        <queue>NA_Central_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NA_East_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA East Leads</label>
+        <queue>NA_East_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NA_West_Leads_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>NA West Leads</label>
+        <queue>NA_West_Leads</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Test_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Test Queue</label>
+        <queue>Test_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>

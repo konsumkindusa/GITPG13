@@ -68,6 +68,16 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>AR_Custom_Field3_Accounts__c</fullName>
+        <externalId>false</externalId>
+        <label>AR-Custom Field3_Accounts</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -393,6 +403,13 @@
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>ACCOUNT.INDUSTRY</columns>
+        <columns>ACCOUNT.SALES</columns>
+        <columns>ACCOUNT_SOURCE</columns>
+        <columns>PARENT_NAME</columns>
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
