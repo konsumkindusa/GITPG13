@@ -1258,6 +1258,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>S_T_Demo__c.S_T_Demo_PickList__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1423,6 +1428,13 @@
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>S_T_Demo__c-S%26T Demo Layout</layout>
+    </layoutAssignments>
+    <loginIpRanges>
+        <endAddress>159.45.255.255</endAddress>
+        <startAddress>13.108.0.0</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1565,6 +1577,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Product2</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>S_T_Demo__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

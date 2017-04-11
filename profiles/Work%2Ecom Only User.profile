@@ -1258,6 +1258,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>S_T_Demo__c.S_T_Demo_PickList__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1422,6 +1427,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>S_T_Demo__c-S%26T Demo Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>

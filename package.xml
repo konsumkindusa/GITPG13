@@ -80,6 +80,7 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>S_T_Demo__c.S_T_Demo_PickList__c</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
         <members>WellsFargo__c.WellsCheck__c</members>
         <members>WellsFargo__c.WellsFargo_Picklist__c</members>
@@ -131,6 +132,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>S_T_Demo__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
@@ -206,6 +208,7 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>S_T_Demo__c-S%26T Demo Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test_MSH__c-Test MSH Layout</members>
