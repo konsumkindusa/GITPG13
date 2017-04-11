@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>pglight13dev@org.com</assignedTo>
+            <assignedTo>ar-sf-uat-org1@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -21,9 +21,12 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>pglight13dev@org.com</assignedTo>
+            <assignedTo>ar-sf-uat-org1@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -40,9 +43,12 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>pglight13dev@org.com</assignedTo>
+            <assignedTo>ar-sf-uat-org1@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -59,9 +65,12 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>pglight13dev@org.com</assignedTo>
+            <assignedTo>ar-sf-uat-org1@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -78,15 +87,21 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>pglight13dev@org.com</assignedTo>
+            <assignedTo>ar-sf-uat-org1@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
                 <operation>contains</operation>
                 <value>Partner</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

@@ -2,12 +2,32 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>ARApexACclass2</members>
+        <members>ARApexClass</members>
+        <members>ARApexClass1</members>
+        <members>ARApexClass2</members>
+        <members>ARApexClass3</members>
+        <members>ARApexClass5</members>
+        <members>ARApexclass117</members>
+        <members>ARApexclass13</members>
+        <members>ARApexclass15</members>
+        <members>ARApexclass31</members>
+        <members>ClassTestingTest</members>
+        <members>TAFApexClass</members>
         <members>WFApex1</members>
         <members>WFApex2</members>
         <members>WFApex3</members>
         <members>WFApexTest1</members>
         <members>WFApexTest2</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LOLpage</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>HelloLOL</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>
@@ -38,6 +58,7 @@
         <name>Community</name>
     </types>
     <types>
+        <members>LOL_POC_Console</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
@@ -51,6 +72,18 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>APIUser__c.Endpoint__c</members>
+        <members>APIUser__c.Organization_Id__c</members>
+        <members>APIUser__c.Password__c</members>
+        <members>APIUser__c.Security_Token__c</members>
+        <members>APIUser__c.Username__c</members>
+        <members>AR4_CustomObject__c.AR4_CustomField__c</members>
+        <members>AR_CustomObject1__c.AR_CustomField1__c</members>
+        <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
+        <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
+        <members>AR_CustomObject1__c.bobtext__c</members>
+        <members>AR_Custom_object2__c.Test__c</members>
+        <members>AR_webinar_Object__c.webinar_cust_field__c</members>
         <members>Account.Account_Number__c</members>
         <members>Account.Active_1__c</members>
         <members>Account.Active__c</members>
@@ -62,26 +95,38 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Activity.User_Reserved_Field__c</members>
         <members>AutoRabit_Test__c.Test1__c</members>
         <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>LOLCustomSetting__c.Feild1__c</members>
+        <members>LOLCustomSetting__c.Field2__c</members>
+        <members>LOLDivision__c.DivisionName__c</members>
+        <members>LOLDivision__c.Division_Description__c</members>
+        <members>Land_O_Lakes__c.LOLDivisions__c</members>
+        <members>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</members>
+        <members>Land_O_Lakes__c.Land_O_Lakes_PicklistDemo_del__c</members>
+        <members>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>User.AutorabitExtId__c</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
         <members>WellsFargo__c.WellsCheck__c</members>
         <members>WellsFargo__c.WellsFargo_Picklist__c</members>
@@ -93,6 +138,12 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>APIUser__c</members>
+        <members>AR4_CustomObject__c</members>
+        <members>AR_CustomObject1__c</members>
+        <members>AR_Custom_object2__c</members>
+        <members>AR_Ob5__c</members>
+        <members>AR_webinar_Object__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -118,6 +169,9 @@
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
         <members>Idea</members>
+        <members>LOLCustomSetting__c</members>
+        <members>LOLDivision__c</members>
+        <members>Land_O_Lakes__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -165,10 +219,25 @@
         <name>EscalationRules</name>
     </types>
     <types>
+        <members>Update_Contact_Address-1</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Update_Contact_Address</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
+        <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
+        <members>AR_CustomObject1__c-AR-Layout1</members>
+        <members>AR_CustomObject1__c-Copy of AR-CustomObject1 Layout</members>
+        <members>AR_Custom_object2__c-AR-Custom object2 Layout</members>
+        <members>AR_Ob5__c-AR-Obj5 Layout</members>
+        <members>AR_webinar_Object__c-AR-webinar-Object Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -182,6 +251,7 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
+        <members>CaseClose-LOL Close Case Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
@@ -195,6 +265,8 @@
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>LOLDivision__c-LOLDivision Layout</members>
+        <members>Land_O_Lakes__c-Land O Lakes Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -236,6 +308,7 @@
         <members>Campaign.MyActiveCampaigns</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
+        <members>Case.LOL_CaseView</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
         <members>Contact.AllContacts</members>
@@ -291,6 +364,11 @@
         <name>MatchingRules</name>
     </types>
     <types>
+        <members>AR-Profile-Dominion</members>
+        <members>AR-Profile1</members>
+        <members>AR4-Profile</members>
+        <members>AR4-Profile-ForcePoint</members>
+        <members>AR4-Profile-Honeywell</members>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -316,11 +394,13 @@
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
+        <members>LOL-POC-StandardUser</members>
         <members>MarketingProfile</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
+        <members>ProfileDemo_CaptialOne</members>
         <members>ReadOnly</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
@@ -483,5 +563,10 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>AR_CustomObject1__c.AR-WorkFlow1</members>
+        <members>AR_CustomObject1__c.AR-WorkflowRule2</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>

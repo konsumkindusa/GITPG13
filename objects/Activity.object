@@ -33,6 +33,17 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>User_Reserved_Field__c</fullName>
+        <description>Test field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>free form text 50 char</inlineHelpText>
+        <label>User Reserved Field</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
