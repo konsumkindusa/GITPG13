@@ -103,6 +103,7 @@
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
+        <members>Application__c</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
         <members>AutoRabit_Test__c</members>
@@ -183,6 +184,7 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Application__c-Application Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AutoRabit_Test__c-AutoRabit Test Layout</members>
         <members>Campaign-Campaign Layout</members>
