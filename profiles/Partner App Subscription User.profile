@@ -1456,6 +1456,9 @@
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>SimonTestingTAF__c-SimonTestingTAF Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
