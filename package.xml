@@ -480,6 +480,10 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>TestPOCSkuid1</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
