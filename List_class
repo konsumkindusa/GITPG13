@@ -1,0 +1,12 @@
+public class listexample {
+    public list<string>result{set;get;}
+    public listexample()
+    {
+        result= new list<string>();
+            result.add('Sam');
+            result.add('Ram');
+            result.add('Hari');
+            result.add(1,'Kumar');
+            
+    }
+}
