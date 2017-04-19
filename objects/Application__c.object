@@ -53,7 +53,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Job_Title__c</fullName>
-        <description>test for deployment</description>
+        <description>test for deployment for autoRabit</description>
         <externalId>false</externalId>
         <label>Job Title</label>
         <length>30</length>
