@@ -64,6 +64,7 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Application__c.Job_Title__c</members>
         <members>AutoRabit_Test__c.Test1__c</members>
         <members>Candidate__c.Email__c</members>
         <members>Candidate__c.First_Name__c</members>
