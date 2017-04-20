@@ -7,6 +7,7 @@ public class Jay_CodeanalysisCls {
         Integer i=10;
         integer j=20;
         integer k=i*j;
+		system.debug('****'+k);
     }
     public void welcome(){
         string Name='Wells';
