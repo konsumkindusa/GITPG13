@@ -81,6 +81,9 @@
         <members>APIUser__c.Security_Token__c</members>
         <members>APIUser__c.Username__c</members>
         <members>AR4_CustomObject__c.AR4_CustomField__c</members>
+        <members>ARDemo1__c.DemoCheckbox1__c</members>
+        <members>ARDemo1__c.NumberDemo1__c</members>
+        <members>ARDemo1__c.TextDemo1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
@@ -143,6 +146,7 @@
     <types>
         <members>APIUser__c</members>
         <members>AR4_CustomObject__c</members>
+        <members>ARDemo1__c</members>
         <members>AR_CustomObject1__c</members>
         <members>AR_Custom_object2__c</members>
         <members>AR_Ob5__c</members>
@@ -210,6 +214,10 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>ARDemo1__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>unfiled$public</members>
         <name>EmailTemplate</name>
     </types>
@@ -234,7 +242,12 @@
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
         <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
+        <members>ARDemo1__c-ARDemo1 Layout</members>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_CustomObject1__c-Copy of AR-CustomObject1 Layout</members>
