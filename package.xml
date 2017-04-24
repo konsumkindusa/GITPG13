@@ -84,6 +84,7 @@
         <members>ARDemo1__c.DemoCheckbox1__c</members>
         <members>ARDemo1__c.NumberDemo1__c</members>
         <members>ARDemo1__c.TextDemo1__c</members>
+        <members>ARDemo2__c.Lookup_ARDemo1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
@@ -147,6 +148,7 @@
         <members>APIUser__c</members>
         <members>AR4_CustomObject__c</members>
         <members>ARDemo1__c</members>
+        <members>ARDemo2__c</members>
         <members>AR_CustomObject1__c</members>
         <members>AR_Custom_object2__c</members>
         <members>AR_Ob5__c</members>
@@ -215,6 +217,7 @@
     </types>
     <types>
         <members>ARDemo1__c</members>
+        <members>ARDemo2__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -248,6 +251,7 @@
     <types>
         <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
         <members>ARDemo1__c-ARDemo1 Layout</members>
+        <members>ARDemo2__c-ARDemo2 Layout</members>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_CustomObject1__c-Copy of AR-CustomObject1 Layout</members>
@@ -310,6 +314,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>ARDemo2__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
