@@ -1,6 +1,6 @@
 public with sharing class AR_Deploycls {
      public AR_Deploycls(){
      	 system.debug('Hello Welcome to Deploy Test');
-		 system.debug('Hello Welcome to Deploy Test commit');
+		 system.debug(' Test commit');
 		  }
 }
