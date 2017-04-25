@@ -1,5 +1,5 @@
 public class ARDemo1{
     public static void demoMethod(){
-        system.debug('hello Teams');
+        system.debug('hello Team mates');
     }
 }
