@@ -193,16 +193,19 @@
                 <value>
                     <fullName>Secondary</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Secondary</label>
                 </value>
                 <value>
                     <fullName>Tertiary</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Tertiary</label>
                 </value>
                 <value>
                     <fullName>Primary</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Primary</label>
                 </value>
             </valueSetDefinition>

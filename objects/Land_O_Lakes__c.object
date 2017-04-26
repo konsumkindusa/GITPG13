@@ -83,26 +83,31 @@
                 <value>
                     <fullName>Value01</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value01</label>
                 </value>
                 <value>
                     <fullName>Value02</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value02</label>
                 </value>
                 <value>
                     <fullName>Value03</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value03</label>
                 </value>
                 <value>
                     <fullName>Value04</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value04</label>
                 </value>
                 <value>
                     <fullName>Value05</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value05</label>
                 </value>
             </valueSetDefinition>
@@ -122,26 +127,31 @@
                 <value>
                     <fullName>Value01</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value01</label>
                 </value>
                 <value>
                     <fullName>Value02</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value02</label>
                 </value>
                 <value>
                     <fullName>Value03</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value03</label>
                 </value>
                 <value>
                     <fullName>Value04</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value04</label>
                 </value>
                 <value>
                     <fullName>Value05</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Value05</label>
                 </value>
             </valueSetDefinition>

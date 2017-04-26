@@ -200,11 +200,13 @@
                 <value>
                     <fullName>No</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>No</label>
                 </value>
                 <value>
                     <fullName>Yes</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
@@ -223,16 +225,19 @@
                 <value>
                     <fullName>GC1000 series</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>GC1000 series</label>
                 </value>
                 <value>
                     <fullName>GC5000 series</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>GC5000 series</label>
                 </value>
                 <value>
                     <fullName>GC3000 series</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>GC3000 series</label>
                 </value>
             </valueSetDefinition>

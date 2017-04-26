@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ARApexACclass2</members>
         <members>ARApexClass</members>
@@ -91,27 +89,79 @@
         <members>AR_CustomObject1__c.bobtext__c</members>
         <members>AR_Custom_object2__c.Test__c</members>
         <members>AR_webinar_Object__c.webinar_cust_field__c</members>
+        <members>Account.AccountSource</members>
         <members>Account.Account_Number__c</members>
         <members>Account.Active_1__c</members>
         <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
         <members>Account.Autorabittest__c</members>
+        <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
+        <members>Account.Industry</members>
         <members>Account.NumberofLocations__c</members>
+        <members>Account.Ownership</members>
+        <members>Account.Rating</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.Type</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>AccountContactRole.Role</members>
         <members>Activity.User_Reserved_Field__c</members>
+        <members>Asset.Status</members>
         <members>AutoRabit_Test__c.Test1__c</members>
+        <members>Campaign.Status</members>
+        <members>Campaign.Type</members>
+        <members>CampaignMember.LeadSource</members>
+        <members>CampaignMember.Salutation</members>
+        <members>CampaignMember.Status</members>
         <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.Origin</members>
         <members>Case.PotentialLiability__c</members>
+        <members>Case.Priority</members>
         <members>Case.Product__c</members>
+        <members>Case.Reason</members>
         <members>Case.SLAViolation__c</members>
+        <members>Case.Status</members>
+        <members>Case.Type</members>
+        <members>CaseContactRole.Role</members>
         <members>Contact.AutorabitExtId__c</members>
+        <members>Contact.CleanStatus</members>
         <members>Contact.Languages__c</members>
+        <members>Contact.LeadSource</members>
         <members>Contact.Level__c</members>
+        <members>ContentVersion.SharingOption</members>
+        <members>Contract.OwnerExpirationNotice</members>
+        <members>Contract.Status</members>
+        <members>ContractContactRole.Role</members>
+        <members>DandBCompany.CompanyCurrencyIsoCode</members>
+        <members>DandBCompany.CurrencyCode</members>
+        <members>DandBCompany.EmployeesHereReliability</members>
+        <members>DandBCompany.EmployeesTotalReliability</members>
+        <members>DandBCompany.GeoCodeAccuracy</members>
+        <members>DandBCompany.ImportExportAgent</members>
+        <members>DandBCompany.LegalStatus</members>
+        <members>DandBCompany.LocationStatus</members>
+        <members>DandBCompany.MarketingPreScreen</members>
+        <members>DandBCompany.MarketingSegmentationCluster</members>
+        <members>DandBCompany.MinorityOwned</members>
+        <members>DandBCompany.NationalIdType</members>
+        <members>DandBCompany.OutOfBusiness</members>
+        <members>DandBCompany.OwnOrRent</members>
+        <members>DandBCompany.PublicIndicator</members>
+        <members>DandBCompany.SalesVolumeReliability</members>
+        <members>DandBCompany.SmallBusiness</members>
+        <members>DandBCompany.Subsidiary</members>
+        <members>DandBCompany.WomenOwned</members>
+        <members>DemoObj__c.myEncrypted__c</members>
+        <members>DemoObj__c.testDate__c</members>
+        <members>DemoObj__c.testgeofield__c</members>
+        <members>DemoObj__c.testtext__c</members>
+        <members>EmailMessage.Status</members>
+        <members>EmailMessage.ValidatedFromAddress</members>
+        <members>Event.EventSubtype</members>
+        <members>Event.ShowAs</members>
         <members>Goal.OrigGoalId__c</members>
         <members>LOLCustomSetting__c.Feild1__c</members>
         <members>LOLCustomSetting__c.Field2__c</members>
@@ -121,19 +171,40 @@
         <members>Land_O_Lakes__c.Land_O_Lakes_Checkbox__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_PicklistDemo_del__c</members>
         <members>Land_O_Lakes__c.Land_O_Lakes_Picklist__c</members>
+        <members>Lead.CleanStatus</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.Industry</members>
+        <members>Lead.LeadSource</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
+        <members>Lead.Rating</members>
         <members>Lead.SICCode__c</members>
+        <members>Lead.Status</members>
         <members>Metric.OrigMetricId__c</members>
         <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.LeadSource</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.StageName</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.Type</members>
+        <members>OpportunityContactRole.Role</members>
+        <members>Order.Type</members>
+        <members>Product2.Family</members>
+        <members>Product2.QuantityUnitOfMeasure</members>
+        <members>Solution.Status</members>
+        <members>Task.CallType</members>
+        <members>Task.Priority</members>
+        <members>Task.RecurrenceRegeneratedType</members>
+        <members>Task.Status</members>
+        <members>Task.TaskSubtype</members>
         <members>User.AutorabitExtId__c</members>
+        <members>UserProvisioningRequest.ApprovalStatus</members>
+        <members>UserProvisioningRequest.Operation</members>
+        <members>UserProvisioningRequest.State</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
         <members>WellsFargo__c.WellsCheck__c</members>
         <members>WellsFargo__c.WellsFargo_Picklist__c</members>
@@ -170,6 +241,7 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
+        <members>DemoObj__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -218,6 +290,7 @@
     <types>
         <members>ARDemo1__c</members>
         <members>ARDemo2__c</members>
+        <members>DemoObj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -279,6 +352,7 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
+        <members>DemoObj__c-DemoObj Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
@@ -344,6 +418,7 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>DemoObj__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -519,6 +594,10 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>DemoObj__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
         <members>AccountContactMultiRoles</members>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
@@ -594,4 +673,5 @@
         <members>AR_CustomObject1__c.AR-WorkflowRule2</members>
         <name>WorkflowRule</name>
     </types>
+    <version>39.0</version>
 </Package>
