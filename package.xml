@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
     <types>
         <members>ARDemo1</members>
         <members>AR_Deploycls</members>
@@ -62,6 +64,7 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Application__c.Candidate_Name__c</members>
         <members>Application__c.Email__c</members>
         <members>Application__c.Job_Title__c</members>
         <members>Application__c.Phone__c</members>
@@ -504,5 +507,4 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <version>39.0</version>
 </Package>
