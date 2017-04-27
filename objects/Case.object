@@ -189,13 +189,11 @@
                 <value>
                     <fullName>No</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>No</label>
                 </value>
                 <value>
                     <fullName>Yes</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
@@ -223,55 +221,46 @@
                 <value>
                     <fullName>GC1040</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC1040</label>
                 </value>
                 <value>
                     <fullName>GC1060</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC1060</label>
                 </value>
                 <value>
                     <fullName>GC3020</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC3020</label>
                 </value>
                 <value>
                     <fullName>GC3040</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC3040</label>
                 </value>
                 <value>
                     <fullName>GC3060</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC3060</label>
                 </value>
                 <value>
                     <fullName>GC5020</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC5020</label>
                 </value>
                 <value>
                     <fullName>GC5040</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC5040</label>
                 </value>
                 <value>
                     <fullName>GC5060</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC5060</label>
                 </value>
                 <value>
                     <fullName>GC1020</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>GC1020</label>
                 </value>
             </valueSetDefinition>
@@ -299,13 +288,11 @@
                 <value>
                     <fullName>No</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>No</label>
                 </value>
                 <value>
                     <fullName>Yes</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>

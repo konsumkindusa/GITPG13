@@ -108,19 +108,16 @@
                 <value>
                     <fullName>In progress</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>In progress</label>
                 </value>
                 <value>
                     <fullName>Yet to begin</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Yet to begin</label>
                 </value>
                 <value>
                     <fullName>Completed</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Completed</label>
                 </value>
             </valueSetDefinition>

@@ -242,6 +242,7 @@
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
         <members>DemoObj__c</members>
+        <members>Demo__mdt</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -353,6 +354,7 @@
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DemoObj__c-DemoObj Layout</members>
+        <members>Demo__mdt-Demo Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>

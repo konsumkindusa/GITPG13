@@ -124,13 +124,11 @@
                 <value>
                     <fullName>No</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>No</label>
                 </value>
                 <value>
                     <fullName>Yes</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
@@ -182,19 +180,16 @@
                 <value>
                     <fullName>High</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>High</label>
                 </value>
                 <value>
                     <fullName>Low</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Low</label>
                 </value>
                 <value>
                     <fullName>Medium</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Medium</label>
                 </value>
             </valueSetDefinition>
@@ -308,25 +303,21 @@
                 <value>
                     <fullName>Gold</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Gold</label>
                 </value>
                 <value>
                     <fullName>Silver</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Silver</label>
                 </value>
                 <value>
                     <fullName>Platinum</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Platinum</label>
                 </value>
                 <value>
                     <fullName>Bronze</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Bronze</label>
                 </value>
             </valueSetDefinition>
@@ -374,19 +365,16 @@
                 <value>
                     <fullName>Maybe</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Maybe</label>
                 </value>
                 <value>
                     <fullName>No</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>No</label>
                 </value>
                 <value>
                     <fullName>Yes</fullName>
                     <default>false</default>
-                    <isActive>false</isActive>
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>

@@ -1643,6 +1643,9 @@
     <layoutAssignments>
         <layout>DemoObj__c-DemoObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Demo__mdt-Demo Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
