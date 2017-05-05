@@ -96,18 +96,6 @@
         <valueSet>
             <valueSetDefinition>
                 <sorted>false</sorted>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>No</label>
-                </value>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Yes</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

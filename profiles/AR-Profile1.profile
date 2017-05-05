@@ -96,6 +96,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ARDemo1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AR_Deploycls</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ClassTestingTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -143,6 +151,11 @@
         <editable>true</editable>
         <field>Account.AccountSource</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Active_1__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -566,6 +579,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Demo__mdt-Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ARDemo2__c-ARDemo2 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
