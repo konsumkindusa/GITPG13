@@ -15,6 +15,9 @@
         <members>ClassTestingTest</members>
         <members>Jay_CodeanalysisCls</members>
         <members>Jay_CodeanalysisCls_Test</members>
+        <members>Quantcast_CodeanalysisCls</members>
+        <members>Quantcast_CodeanalysisCls_Test</members>
+        <members>Quantcast_StaticCodeAnalysis</members>
         <members>TAFApexClass</members>
         <members>TestClass</members>
         <members>WFApex1</members>

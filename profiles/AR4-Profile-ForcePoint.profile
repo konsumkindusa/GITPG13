@@ -108,6 +108,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Quantcast_CodeanalysisCls</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quantcast_CodeanalysisCls_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Quantcast_StaticCodeAnalysis</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TAFApexClass</apexClass>
         <enabled>false</enabled>
     </classAccesses>
