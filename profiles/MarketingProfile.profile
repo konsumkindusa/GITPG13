@@ -847,6 +847,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Google__c.Googlepick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>IBCM__c.IBCM_Demo_PickList__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1455,6 +1460,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test1__c-Test1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Google__c-Google Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

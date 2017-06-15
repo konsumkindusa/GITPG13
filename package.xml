@@ -71,6 +71,7 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>Google__c.Googlepick__c</members>
         <members>IBCM__c.IBCM_Demo_PickList__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -119,6 +120,7 @@
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
+        <members>Google__c</members>
         <members>IBCM__c</members>
         <members>Idea</members>
         <members>Lead</members>
@@ -197,6 +199,7 @@
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
+        <members>Google__c-Google Layout</members>
         <members>IBCM__c-IBCM Demo Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
