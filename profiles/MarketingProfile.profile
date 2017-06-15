@@ -1333,6 +1333,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test1__c.Testpick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WellsFargo__c.Well_Fargo_Email_Fields__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1455,6 +1460,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test1__c-Test1 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
