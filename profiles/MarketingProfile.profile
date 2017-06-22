@@ -847,6 +847,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>GoogleCI__c.GooglePick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Google__c.Googlepick__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1463,6 +1468,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Google__c-Google Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoogleCI__c-GoogleCI Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
