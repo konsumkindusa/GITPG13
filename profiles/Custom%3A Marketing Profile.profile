@@ -1370,6 +1370,9 @@
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Application__c-Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1380,6 +1383,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case %28Marketing%29 Layout</layout>
@@ -1445,6 +1451,9 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>S_T_Demo__c-S%26T Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1467,15 +1476,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>S_T_Demo__c-S%26T Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Candidate__c-Candidate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Application__c-Application Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
