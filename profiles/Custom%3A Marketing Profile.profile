@@ -1535,6 +1535,24 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ARDemo2__c-ARDemo2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_CustomObject1__c-AR-CustomObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_Custom_object2__c-AR-Custom object2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_Ob5__c-AR-Obj5 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_webinar_Object__c-AR-webinar-Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1568,6 +1586,12 @@
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DemoObj__c-DemoObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Demo__mdt-Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1584,6 +1608,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LOLDivision__c-LOLDivision Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead %28Marketing%29 Layout</layout>
@@ -1638,36 +1668,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_CustomObject1__c-AR-CustomObject1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_Custom_object2__c-AR-Custom object2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_Ob5__c-AR-Obj5 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_webinar_Object__c-AR-webinar-Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LOLDivision__c-LOLDivision Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Land_O_Lakes__c-Land O Lakes Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DemoObj__c-DemoObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Demo__mdt-Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ARDemo2__c-ARDemo2 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

@@ -504,6 +504,9 @@
         <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ARDemo2__c-ARDemo2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AR_CustomObject1__c-AR-CustomObject1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -541,6 +544,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DemoObj__c-DemoObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Demo__mdt-Demo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
@@ -589,15 +598,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DemoObj__c-DemoObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Demo__mdt-Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ARDemo2__c-ARDemo2 Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>LOLpage</apexPage>
