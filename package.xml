@@ -3,6 +3,12 @@
         <members>ARDemo1</members>
         <members>AR_Deploycls</members>
         <members>AR_Deploycls_Test</members>
+        <members>HomeAwayApex1</members>
+        <members>HomeAwayApex2</members>
+        <members>HomeAwayApex3</members>
+        <members>HomeAwyApexTest1</members>
+        <members>HomeAwyApexTest2</members>
+        <members>HomeAwyApexTest3</members>
         <members>WFApex1</members>
         <members>WFApex2</members>
         <members>WFApex3</members>
@@ -82,6 +88,8 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>HomeAway__c.HomeAway_Picklist__c</members>
+        <members>HomeisAway__c.HomeAway_Picklist__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -132,7 +140,10 @@
         <members>ExchangeUserMapping</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
+        <members>HomeAway__c</members>
+        <members>HomeisAway__c</members>
         <members>Idea</members>
+        <members>Jira_Test__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -219,7 +230,10 @@
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
+        <members>HomeAway__c-HomeAway Layout</members>
+        <members>HomeisAway__c-HomeAway Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>Jira_Test__c-Jira Test Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -442,6 +456,12 @@
         <members>Search</members>
         <members>Security</members>
         <name>Settings</name>
+    </types>
+    <types>
+        <members>HomeAway__c</members>
+        <members>HomeisAway__c</members>
+        <members>Jira_Test__c</members>
+        <name>SharingRules</name>
     </types>
     <types>
         <members>AccountContactMultiRoles</members>
