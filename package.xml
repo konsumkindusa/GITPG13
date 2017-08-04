@@ -91,6 +91,7 @@
         <members>HomeAway__c.HomeAway_Picklist__c</members>
         <members>HomeisAway__c.HomeAway_Picklist__c</members>
         <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.HA_New_Field__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
