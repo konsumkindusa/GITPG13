@@ -1322,6 +1322,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Trimble__c.trimbletest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>WellsFargo__c.Well_Fargo_Email_Fields__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1389,6 +1394,9 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>IBCM__c-IBCM Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1419,6 +1427,9 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SimonTestingTAF__c-SimonTestingTAF Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1426,6 +1437,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_MSH__c-Test MSH Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trimble__c-TrimbleTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -1441,12 +1455,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>IBCM__c-IBCM Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SimonTestingTAF__c-SimonTestingTAF Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>

@@ -86,6 +86,7 @@
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Test1__c.Testpick__c</members>
+        <members>Trimble__c.trimbletest__c</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
         <members>WellsFargo__c.WellsCheck__c</members>
         <members>WellsFargo__c.WellsFargo_Picklist__c</members>
@@ -148,6 +149,7 @@
         <members>Task</members>
         <members>Test1__c</members>
         <members>Test_MSH__c</members>
+        <members>Trimble__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>WebHook_Test__c</members>
@@ -238,6 +240,7 @@
         <members>Task-Task Layout</members>
         <members>Test1__c-Test1 Layout</members>
         <members>Test_MSH__c-Test MSH Layout</members>
+        <members>Trimble__c-TrimbleTest Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
