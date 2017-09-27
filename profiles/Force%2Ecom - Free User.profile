@@ -1524,6 +1524,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test1__c-Test1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_MSH__c-Test MSH Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
