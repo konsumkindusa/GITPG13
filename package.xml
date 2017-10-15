@@ -256,6 +256,8 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>S_T_Demo__c-S%26T Demo Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test1__c-Test1 Layout</members>
