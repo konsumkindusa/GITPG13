@@ -1625,6 +1625,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
 </Profile>
