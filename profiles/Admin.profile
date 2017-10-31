@@ -75,6 +75,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SBAApex2017</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ThreeMApex1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
