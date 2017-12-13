@@ -9,6 +9,7 @@
         <members>HomeAwyApexTest1</members>
         <members>HomeAwyApexTest2</members>
         <members>HomeAwyApexTest3</members>
+        <members>MerckApexClass1</members>
         <members>SBAApex2017</members>
         <members>ThreeMApex1</members>
         <members>ThreeMApexTest1</members>
@@ -155,6 +156,9 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>Object_B__c</members>
+        <members>Object_C__c</members>
+        <members>Object_D__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -246,6 +250,9 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Object_B__c-Object B Layout</members>
+        <members>Object_C__c-Object C Layout</members>
+        <members>Object_D__c-Object D Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -471,6 +478,9 @@
         <members>HomeAway__c</members>
         <members>HomeisAway__c</members>
         <members>Jira_Test__c</members>
+        <members>Object_B__c</members>
+        <members>Object_C__c</members>
+        <members>Object_D__c</members>
         <members>Test1__c</members>
         <name>SharingRules</name>
     </types>
