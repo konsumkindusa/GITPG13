@@ -51,6 +51,14 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AlignTechApex1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AlignTechApexTest1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HomeAwayApex1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -1509,6 +1517,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Object_D__c-Object D Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Object_X__c-Object X Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Object_Y__c-Object Y Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
