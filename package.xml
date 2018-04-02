@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>41.0</version>
     <types>
         <members>WFApex1</members>
         <members>WFApex2</members>
@@ -85,6 +85,7 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>PGTestCheck__c.PGTestCheck_Fld__c</members>
         <members>Test1__c.Testpick__c</members>
         <members>Trimble__c.trimbletest__c</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
@@ -137,6 +138,7 @@
         <members>OpportunityLineItem</members>
         <members>Order</members>
         <members>OrderItem</members>
+        <members>PGTestCheck__c</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
@@ -232,6 +234,7 @@
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>PGTestCheck__c-PGTestCheck Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
@@ -386,6 +389,7 @@
     <types>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
+        <members>PGTestCheck__c.PGTestRecordType</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -504,6 +508,10 @@
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
         <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>PGTestCheck__c.PGTestSampleRule</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>
