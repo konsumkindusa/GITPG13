@@ -2,6 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>41.0</version>
     <types>
+        <members>ProdDiscount</members>
+        <members>SApex2</members>
+        <members>SApexTest2</members>
         <members>WFApex1</members>
         <members>WFApex2</members>
         <members>WFApex3</members>
