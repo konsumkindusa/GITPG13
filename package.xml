@@ -90,6 +90,7 @@
         <members>Opportunity.TrackingNumber__c</members>
         <members>PGTestCheck__c.PGTestCheck_Fld__c</members>
         <members>Test1__c.Testpick__c</members>
+        <members>Test2__c.testpick__c</members>
         <members>Trimble__c.trimbletest__c</members>
         <members>WellsFargo__c.Well_Fargo_Email_Fields__c</members>
         <members>WellsFargo__c.WellsCheck__c</members>
@@ -127,6 +128,7 @@
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
         <members>GoogleCI__c</members>
+        <members>GoogleGit__c</members>
         <members>Google__c</members>
         <members>IBCM__c</members>
         <members>Idea</members>
@@ -220,8 +222,10 @@
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
         <members>FeedItem-Feed Item Layout</members>
+        <members>GGit__c-GGit Layout</members>
         <members>Global-Global Layout</members>
         <members>GoogleCI__c-GoogleCI Layout</members>
+        <members>GoogleGit__c-GoogleGit Layout</members>
         <members>Google__c-Google Layout</members>
         <members>IBCM__c-IBCM Demo Layout</members>
         <members>Idea-Idea Layout</members>
