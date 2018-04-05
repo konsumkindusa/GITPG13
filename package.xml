@@ -6,6 +6,7 @@
         <members>WFApex3</members>
         <members>WFApexTest1</members>
         <members>WFApexTest2</members>
+        <members>autorabbit_demo</members>
         <name>ApexClass</name>
     </types>
     <types>
