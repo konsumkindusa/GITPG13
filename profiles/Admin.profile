@@ -1349,6 +1349,11 @@
         <field>WellsFargo__c.Wells_Fargo_CheckBox__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Zillow_Playground_Obj__c.Zillow_Playground_Fld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1463,6 +1468,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WellsFargo__c-WellsFargo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Zillow_Playground_Obj__c-Zillow_Playground_Obj Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -1678,6 +1686,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>WellsFargo__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Zillow_Playground_Obj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>

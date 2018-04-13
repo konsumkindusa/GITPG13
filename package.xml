@@ -101,6 +101,7 @@
         <members>WellsFargo__c.WellsCheck__c</members>
         <members>WellsFargo__c.WellsFargo_Picklist__c</members>
         <members>WellsFargo__c.Wells_Fargo_CheckBox__c</members>
+        <members>Zillow_Playground_Obj__c.Zillow_Playground_Fld__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -166,6 +167,7 @@
         <members>UserProvisioningRequest</members>
         <members>WebHook_Test__c</members>
         <members>WellsFargo__c</members>
+        <members>Zillow_Playground_Obj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -262,6 +264,7 @@
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>WebHook_Test__c-WebHook Test Layout</members>
         <members>WellsFargo__c-WellsFargo Layout</members>
+        <members>Zillow_Playground_Obj__c-Zillow_Playground_Obj Layout</members>
         <name>Layout</name>
     </types>
     <types>
