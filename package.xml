@@ -90,6 +90,7 @@
         <members>Candidate__c.Last_Name__c</members>
         <members>Candidate__c.Phone__c</members>
         <members>Case.AutorabitExtId__c</members>
+        <members>Case.Case_escalation__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
